@@ -1,0 +1,43 @@
+# Python virtual environment
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+share
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# API keys and secrets
+*.pem
+*.key
